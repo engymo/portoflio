@@ -1,0 +1,5 @@
+.skill:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: all 1s;
+}

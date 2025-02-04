@@ -1,0 +1,29 @@
+.links a {
+    display: block;
+    color: #A79277;
+}
+
+.linkedin:hover {
+    color: #2A3663;
+    transition: 1s;
+}
+
+.github:hover {
+    color: #000;
+    transition: 1s;
+}
+
+.facebook:hover {
+    color: #000B58;
+    transition: 1s;
+}
+
+.whatsapp:hover {
+    color: #006A67;
+    transition: 1s;
+}
+
+.gmail:hover {
+    color: firebrick;
+    transition: 1s;
+}

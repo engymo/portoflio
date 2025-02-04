@@ -1,0 +1,5 @@
+.nav-item:hover{
+    background-color: #D8AE7E !important;
+    outline: none !important;
+    transition: .9s;
+}

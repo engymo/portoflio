@@ -1,0 +1,22 @@
+.card-work img:hover  {
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: all 1s;
+}
+.card-text{
+    font-size: 12px;
+}
+.card-work {
+    transition: transform 1s ease;
+}
+.card-work:hover {
+    transform: rotate(1deg);
+}
+
+.card-work {
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3),
+        1px 1px 20px rgba(0, 0, 0, .5),
+        inset 2px 1px 20px rgba(0, 0, 0, .1),
+        inset -1px -1px 60px rgba(253, 253, 253, 0.5),
+        inset -2px 10px 10px rgba(0, 0, 0, 0.4);
+}

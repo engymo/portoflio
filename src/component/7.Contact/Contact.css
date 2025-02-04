@@ -1,0 +1,24 @@
+form input,textarea,button{
+    border:none !important;
+    border-bottom: 2px solid #a3a2a2 !important;
+}
+form input,textarea{
+    font-size: 14px !important;
+    letter-spacing: 1px;
+}
+input:focus{
+    outline: none !important;
+}
+.mailbox{
+   
+        animation: alternate mailbox infinite 2s;
+    }
+    @keyframes mailbox {
+        0% {
+            transform: translateX(0px);
+        }
+    
+        100% {
+            transform: translateX(-20px);
+        }
+    }
