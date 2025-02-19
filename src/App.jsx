@@ -1,4 +1,4 @@
-import { BrowserRouter as Router} from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import NavBar from './component/1.NavBar/NavBar';
 import Header from './component/2.Header/Header';
 import Hero from './component/3.Hero/Hero';
@@ -9,7 +9,6 @@ import Contact from './component/7.Contact/Contact';
 import Footer from './component/8.Footer/Footer';
 
 function App() {
-
   return (
     <>
       <Router>
@@ -26,11 +25,11 @@ function App() {
         <div id="contact">
           <Contact />
         </div>
-
         <Footer />
       </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+

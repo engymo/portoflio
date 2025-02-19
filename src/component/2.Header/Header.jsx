@@ -53,11 +53,11 @@ export default function Header() {
           </div>
 
           <div className='links d-flex d-lg-none mt-3' >
-            <a href='#https://www.linkedin.com/in/angie-mohammad-32597824b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app ' className='linkedin pe-2 '><i className="fs-4 bi bi-linkedin"></i></a>
-            <a href='#https://github.com/engymo' className='github pe-2' ><i className="fs-4 bi bi-github"></i></a>
-            <a href='#https://www.facebook.com/Engymohammad2312?mibextid=LQQJ4d' className='facebook pe-2'><i className="fs-4  bi bi-facebook"></i></a>
-            <a href='#https://wa.me/201098259164?text=السلام%20عليكم' className='whatsapp pe-2'><i className="fs-4 bi bi-whatsapp"></i></a>
-            <a href="#https://mail.google.com/mail/u/0/#inbox" className='gmail'><i className="fs-4 bi bi-envelope-at-fill"></i></a>
+            <a href='https://www.linkedin.com/in/angie-mohammad-32597824b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app ' className='linkedin pe-2 '><i className="fs-4 bi bi-linkedin"></i></a>
+            <a href='https://github.com/engymo' className='github pe-2'target="_blank" rel="noopener noreferrer" ><i className="fs-4 bi bi-github"></i></a>
+            <a href='https://www.facebook.com/Engymohammad2312?mibextid=LQQJ4d' className='facebook pe-2'><i className="fs-4  bi bi-facebook"></i></a>
+            <a href='https://wa.me/201098259164?text=السلام%20عليكم' className='whatsapp pe-2'><i className="fs-4 bi bi-whatsapp"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" className='gmail'><i className="fs-4 bi bi-envelope-at-fill"></i></a>
           </div>
         </div>
         <div className='col-lg-6 col-sm-12 order-1 order-lg-2'>
